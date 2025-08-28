@@ -24,6 +24,8 @@ This augmented prompt is then sent to an LLM like OpenAI or Gemini, which return
 
 In my experience, while open-source LLMs (e.g., Hugging Face, Ollama) can support RAG, their out-of-the-box performance is not acceptable for enterprise-grade due diligence tasks, and you need to dedicate resources for fine-tuning as well as hosting.  
 
+Finally, while RAG can reduce hallucinations, it cannot eliminate them entirely. You may use another tool to double-check responses. 
+
 Meanwhile, there are many RAG diagrams available, but I was not convinced that any were clear enough. So I created this diagram. Please let me know if you’ve seen a better version.  
 
-Finally, while RAG can reduce hallucinations, it cannot eliminate them entirely. You may use another tool to double-check responses. 
+![Simple RAG Diagram](https://github.com/dr-armani/simple-rag/blob/main/RAG.jpg)
